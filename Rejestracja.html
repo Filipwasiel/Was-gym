@@ -1,0 +1,51 @@
+<html>
+<title>rejestracja</title>
+<meta charset="utf-8">
+<style>
+.Tytuł
+{
+height:120px;
+background-color:#FF7F50;
+Border:2px solid black;
+padding-top:25px;
+padding-left:25px;
+}
+.formularz
+{
+width:35%;
+height:25%;
+background-color:#FFEFD5;
+padding-top:30px;
+}
+</style>
+</head>
+	<body style="background-color:#FFEFD5;">
+	<div class="tytuł"><font size="+4">Rejestracja</font><br><br><a href="index.html">Strona główna</a><br><a href="kontakt.html">Wróć do logowania</a></div>
+	<div class="formularz">
+	<form method="post" enctype="text/plain" action="kontakt.html">
+		<fieldset style="width:400px;background-color:wheat;">
+		<table>
+		<tr>
+			<td>Login:</td><td><input type="text" name="login" required></td>
+		</tr>
+		<tr>
+			<td>Hasło:</td><td><input type="password" name="hasło" required></td>
+		</tr>
+		<tr>
+			<td>Data urodzenia:</td><td><input type="date" name="data" required></td>
+		</tr>
+		<tr>
+			<td>E-mail</td><td><input type="email" name="email" required></td>
+		</tr>
+		<tr>
+			<td>Wyrażam zgodę na przetwarzanie moich danych</td><td><input type="radio" name="zgoda">Tak<input type="radio" name="zgoda" >Nie</td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="zarejestruj"> <input type="reset" value="wyczyść"></td>
+		</tr>
+		</table>
+		</fieldset>
+	</form>
+	</div>
+	</body>
+</html>

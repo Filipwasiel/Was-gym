@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Formularz</title>
+<meta charset="utf-8">
+<style>
+.Tytuł
+{
+height:120px;
+background-color:#DEB887;
+Border:2px solid black;
+padding-top:25px;
+padding-left:25px;
+}
+</style>
+</head>
+	<body style="background-color:#FFF8DC;">
+	<div class="tytuł"><center><font size="+4">Formularz z uwagami</font></center><br><a href="index.html">Strona główna<br><a href="kontakt.html">Wróć do logowania</a></a></div>
+	<center>
+	<form method="post" enctype="text/plain" action="kontakt.html" style="margin-top:20px;">
+		<fieldset style="width:600px;background-color:#FFDEAD;">
+		Imię:<br><input type="text" name="imię" required><br><br>
+		Nazwisko:<br><input type="text" name="nazwisko" required><br><br>
+		Płeć:<br><input type="radio" name="płeć">Mężczyzna<input type="radio" name="płeć">Kobieta<br><br>
+		Jak długo ćwiczysz?<br><select name="okres ćwiczeń">
+		<option>dopiero zaczynam</option>
+		<option>poniżej 2 lat</option>
+		<option>powyżej 2 lat</option>
+		</select>
+		<br><br>
+		Czy to właśnie dzięki nam zacząłeś swoją przygodę z ćwiczeniami?<br>
+		<input type="radio" name="pytanie">Tak <input type="radio" name="pytanie">Nie<br><br>
+		Twoje personalne uwagi:<br><textarea rows="20" cols="100">Wpisz swoje uwagi</textarea><br><br>
+		<input type="submit" value="wyślij"> <input type="reset" value="wyczyść">
+		</fieldset>
+	</form></center>
+	
+	</body>
+</html>
